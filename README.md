@@ -8,4 +8,3 @@ For authentication, we used Laravel’s build in authentication service by acces
 * Please create a new .env file according to your preference, specifiy the database name
 * Perform migration and seeding with php artisan migrate:fresh –seed command
 * Please create storage link with php artisan storage:link command
-* All users who registers through the register page will be automatically be registered as ‘member’ role. To add admin user(s), manually insert through SQL queries or configure the AdminSeeder
